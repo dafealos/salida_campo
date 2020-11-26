@@ -25,7 +25,7 @@ datos <- datos %>% separate("localizacion", c("latitud", "longitud"), sep = ",")
 ```
 
 
-# Introducción
+# Introducción  
 
 Este es un informe de la salida de campo con los estudiantes de la UNIPAMPLONA en el uso de herramientas libres y en la recolecta y automatización de analisis de datos.
 
@@ -37,11 +37,11 @@ Este es un informe de la salida de campo con los estudiantes de la UNIPAMPLONA e
 knitr::include_graphics("Mapa.jpg")
 ```
 
-## Metodos
+## Metodos  
 
 Se diseño un formulario usando los software libres ODKcollect, los cuales eran enviados a google drive, estos a su vez era obtenidos con @rcore y analizados.
 
-# Resultados
+# Resultados  
 
 
 ```{r,echo=FALSE}
@@ -55,8 +55,9 @@ flextable::flextable(tabla, cwidth = 1)
 knitr::include_graphics("grafico.jpg")
 ```
 
-# Conclusión
+# Conclusión  
 
 Es muy práctico usar Rmarkdown
 
 # Bibliografía  
+
