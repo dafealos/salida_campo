@@ -1,0 +1,162 @@
+---
+title: "Open Data Kit (ODK) para la recolección de datos en campo"
+author: "I. A. Daniel Alvarado"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+encoding: "UTF-8"
+---
+
+```{r setup, include=FALSE, echo=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+# ¿Que es ODK?
+ 
+Es un software gratuito y de código abierto para recopilar, gestionar y utilizar datos en entornos con recursos limitados.
+
+.pull-left[
+.center[![android](img/recolectar.png)]
+]
+
+.pull-right[
+.center[![android](img/android.png)]
+.center[![android](img/odk.png)]
+]
+
+---
+
+# ¿Para que sirve?
+
+- Recopilar una gran variedad de información, por ejemplo, formularios electrónicos, datos numéricos y datos geográficos, texto, fotos, videos, código de barras, audio y otros.
+
+- Esto, además de permitir ahorrar costos y gran cantidad de tiempo, evita la recolección de información manual con formularios en papel, que luego deben ser digitalizados, organizados, analizados y presentados.
+
+
+
+<p>
+<br />
+<br />
+<br />
+</p>
+
+.center[![](img/tipos.png)]
+
+---
+
+# ¿Como funciona?
+
+.center[![](img/funcion.png)]
+
+---
+
+# Diseños de formulario
+
+.pull-left[
+.center[![](img/excel.png)
+
+[https://xlsform.org/en/](https://xlsform.org/en/)]
+<p>
+<br />
+
+</p>
+
+.center[![](img/build.png)
+
+[ODKbuild](https://build.getodk.org)]
+
+]
+
+
+.pull-right[
+<p>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h1>    Servidores</h1>
+
+</p>
+]
+
+---
+
+# Servidores
+<p>
+<br />
+<br />
+
+
+</p>
+.center[<img src="img/servidores.png" alt="drawing" width="1000"/>]
+
+
+---
+
+# Uso de la información
+
+<h3 align="center"> Formatos: CSV, xlsx, KML, etc.. </h3>
+.pull-left[
+
+.center[![](img/qgis.png)]
+.center[<img src="img/earth.png" alt="drawing" width="280"/>]
+
+]
+
+.pull-right[
+
+.center[![](img/r.jpg)]
+
+]
+
+---
+
+# Ejemplo 1
+
+.center[![](img/monitoreo.png)
+Monitoreo de nidos de abejas en el campus de la Universidad del Magdalena]
+
+
+---
+
+# Ejemplo 2
+
+.center[![](img/plantas.png)
+Plantas melíferas que sustentan el meliponario de la granja experimental de la UNIMAG
+]
+
+---
+
+# Ejemplos
+
+- El [“Jane Goodall Institute”](https://youtu.be/CNXv8EEs0P8) usa ODK para la conservación del hábitat de los chimpancés en Tanzania.
+
+- En india el [“The Madras Crocodile Bank Trust & Centre for Herpetology”](https://youtu.be/kl9LXKf7b6c) usa ODK para la prevención de mordeduras de serpientes
+
+- El pueblo indígena [Surui](https://youtu.be/LvJYdoTssMQ) en Brasil implementan ODK para monitorear sus bosques.
+
+- Koji Foruse profesor en [“Teikyo University of Science”](https://youtu.be/aVJsWs72s_8) en Japon usa ODK para construir dentro de los parques naturales y areas de preservación Ambiental, centros naturales que facilitan la educación y a guiar a sus visitantes.
+
+.center[![](img/google.png)
+]
+
+---
+
+class: center, middle, inverse
+background-size: 55px
+background-position: 9% 15%
+
+# Gracias `r emo::ji("smile")`
+
+### Esta presentacion ha sido creada con [xaringan](https://github.com/yihui/xaringan) y [R Markdown](https://rmarkdown.rstudio.com/)
+
+`r icon::fa("envelope")`**dafealos@gmail.com**  
+`r icon::fa("home")`[**https://dafealos.netlify.app**](https://dafealos.netlify.app)  
+`r icon::fa_twitter()`[**@dafealos**](https://twitter.com/dafealos)  
