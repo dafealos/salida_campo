@@ -121,7 +121,8 @@ Es un software gratuito y de código abierto para recopilar, gestionar y utiliza
 # Ejemplo 1
 
 .center[![](img/monitoreo.png)
-Monitoreo de nidos de abejas en el campus de la Universidad del Magdalena]
+Monitoreo de nidos de abejas en el campus de la Universidad del Magdalena
+]
 
 
 ---
@@ -160,3 +161,13 @@ background-position: 9% 15%
 `r icon::fa("envelope")`**dafealos@gmail.com**  
 `r icon::fa("home")`[**https://dafealos.netlify.app**](https://dafealos.netlify.app)  
 `r icon::fa_twitter()`[**@dafealos**](https://twitter.com/dafealos)  
+
+---
+
+class: center, middle, inverse
+
+.center[
+![](img/tractor2.gif)
+
+¡Manos a la obra!
+]
