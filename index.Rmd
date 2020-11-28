@@ -9,6 +9,7 @@ output:
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
+chakra: libs/remark-latest.min.js
 encoding: "UTF-8"
 ---
 
